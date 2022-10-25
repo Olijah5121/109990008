@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+<body style="background-color:white;">
+<head> 
+<style>
+
+.container {
+  position: relative;
+  width: 25%;
+}
+
+.image {
+  opacity: 1;
+  display: block ;
+  width: 100%;
+  height: 250px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.bottom {
+  transition: .8s ease;
+  opacity: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: bottom;
+}
+
+.container:hover .image {
+  opacity: .60;
+}
+
+.container:hover .bottom {
+  opacity: 1;
+}
+
+.text {
+  background-color:rgb(220, 204, 204);
+  color: black;
+  font-size: 16px;
+  padding: 16.67px 16px;
+}
+</style>
+</head>
+<body>
+
+<h2>Profile Image</h2>
+<p>Please hover over image.</p>
+<img src="image (1).png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_self" alt="FB Page" title="FB Page" href="https://www.facebook.com/olijah.parris/" coords="429,279,118" shape="circle">
+</map>
+ 
+  </div>
+</div>
+  
+</body>
+</html>
